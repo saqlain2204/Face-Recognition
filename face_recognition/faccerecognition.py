@@ -4,7 +4,7 @@ import numpy as np
 import cmake
 import os
 
-video_capture=cv2.VideoCapture(1)
+video_capture=cv2.VideoCapture(0)
 
 #Loading known faces
 user_inputs=input("Enter the folder path\n")
